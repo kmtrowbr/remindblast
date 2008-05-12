@@ -7,9 +7,14 @@
     %strong Thanks for sending your blast!
     %br
     Take a second to check out
-    =link_to "Spongecell,", RemindblastController::SPONSOR_URL, { :popup => true }
+    =link_to "Spongecell's Event Marketing Tools,", RemindblastController::SPONSOR_URL, { :popup => true }
     or click here to 
     =link_to "send another remindBlast", "/"
+
+- else
+  %br
+  #return_to_home_page
+    =link_to "< return to the home page", "/"
 
 - if flash[:note]
   = h flash[:note]

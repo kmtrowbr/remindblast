@@ -258,6 +258,17 @@ div#success {
 	border: 1px solid #D4D4A7;
 }
 
+div#return_to_home_page {
+	margin: 0px auto;
+	width: 946px;
+	padding: 10px;
+	font-size: 110%;
+	line-height: 18px;
+	background-color: #FBF8CC;
+/*	background: url("/images/success_bg.png");*/
+	border: 1px solid #D4D4A7;
+}
+
 div#success img {
 	float: left;
 	margin-right: 10px;
@@ -270,7 +281,7 @@ div#success A {
 /*list or success page styles*/
 
 #widget {
-	margin: 0 auto;
+	margin: 0 17px;
 }
 
 /*footer styles*/
